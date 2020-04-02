@@ -25,7 +25,7 @@ int main()
     box2.breadth = 8.0;
     box2.height = 20.0;
 
-    //计算体积
+    //计算box体积
     volume = box1.length * box1.breadth * box1.height;
     cout << "box1的体积：" << volume << endl;
     volume = box2.length * box2.breadth * box2.height;
