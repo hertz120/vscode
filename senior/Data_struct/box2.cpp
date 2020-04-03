@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-class Box
+class Box    //定义类Box
 {
     public:
         double length;
@@ -14,7 +14,7 @@ class Box
         void setBreadth(double bre);
         void setHeight(double hei);
 };
-//成员函数在类外部声明
+//成员函数可以在类外部声明，可使用范围解析运算符::，并且运算符前必须使用类名
 double Box::CalculateVolume(void)
 {
     return length * breadth * height;
