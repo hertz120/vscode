@@ -30,6 +30,7 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "limits": "cpp",
-        "xmemory": "cpp"
+        "xmemory": "cpp",
+        "xstring": "cpp"
     }, // 格式化时调整include的顺序（按字母排序）
 }
